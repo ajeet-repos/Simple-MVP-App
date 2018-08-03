@@ -23,7 +23,7 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
 
     @Override
     public void onClick(View view) {
-        String data = mModel.getData();
-        mView.setViewData(data);
+        Integer data = mModel.getData();
+        mView.setViewData(data.toString());
     }
 }

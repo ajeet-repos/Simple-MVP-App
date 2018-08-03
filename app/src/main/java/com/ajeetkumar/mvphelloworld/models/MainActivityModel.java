@@ -7,8 +7,8 @@ public class MainActivityModel implements MainActivityContract.Model {
     private int counter = 0;
 
     @Override
-    public String getData() {
+    public int getData() {
 
-        return "Hello World! - " + counter++;
+        return counter++;
     }
 }

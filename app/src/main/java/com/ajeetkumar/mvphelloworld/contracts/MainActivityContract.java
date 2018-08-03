@@ -10,7 +10,7 @@ public interface MainActivityContract {
     }
 
     interface Model {
-        String getData();
+        int getData();
     }
 
     interface Presenter {
