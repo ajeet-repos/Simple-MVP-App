@@ -1,16 +1,17 @@
-package com.ajeetkumar.mvphelloworld.contracts;
+package com.ajeetkumar.mvpdemo.contracts;
 
 /**
  * Created by ajeet on 8/3/2018.
  */
 public interface MainActivityContract {
+
     interface View {
         void initView();
         void setViewData(String data);
     }
 
     interface Model {
-        int getData();
+        String getData();
     }
 
     interface Presenter {

@@ -1,4 +1,4 @@
-package com.ajeetkumar.mvphelloworld.views;
+package com.ajeetkumar.mvpdemo.views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.ajeetkumar.mvphelloworld.R;
-import com.ajeetkumar.mvphelloworld.contracts.MainActivityContract;
-import com.ajeetkumar.mvphelloworld.presenter.MainActivityPresenter;
+import com.ajeetkumar.mvpdemo.R;
+import com.ajeetkumar.mvpdemo.contracts.MainActivityContract;
+import com.ajeetkumar.mvpdemo.presenter.MainActivityPresenter;
 
 public class MainActivity extends AppCompatActivity implements MainActivityContract.View {
 

@@ -1,4 +1,4 @@
-package com.ajeetkumar.mvphelloworld;
+package com.ajeetkumar.mvpdemo;
 
 import org.junit.Test;
 

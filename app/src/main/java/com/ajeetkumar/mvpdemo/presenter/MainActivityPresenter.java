@@ -1,9 +1,9 @@
-package com.ajeetkumar.mvphelloworld.presenter;
+package com.ajeetkumar.mvpdemo.presenter;
 
 import android.view.View;
 
-import com.ajeetkumar.mvphelloworld.contracts.MainActivityContract;
-import com.ajeetkumar.mvphelloworld.models.MainActivityModel;
+import com.ajeetkumar.mvpdemo.contracts.MainActivityContract;
+import com.ajeetkumar.mvpdemo.models.MainActivityModel;
 
 public class MainActivityPresenter implements MainActivityContract.Presenter {
 
@@ -23,7 +23,7 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
 
     @Override
     public void onClick(View view) {
-        Integer data = mModel.getData();
-        mView.setViewData(data.toString());
+        String data = mModel.getData();
+        mView.setViewData(data);
     }
 }

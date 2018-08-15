@@ -14,12 +14,12 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginTop="32dp"
-        android:text="0"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@+id/btn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textSize="248dp"
+        android:textSize="48dp"
         android:gravity="center"/>
 
     <Button
